@@ -142,32 +142,7 @@ header{
   
     
 }
-/*
-#logo{
-  
-    height: 9.5vw;
-   
-    
-  
-     width: 10.1vw;
-    margin-left: 1%;
-  
-    position: absolute;
-    margin-top: 33vh;
-    margin-left: vw;
-    background: linear-gradient(to bottom, hsla(32,97%,54%,0.5),hsla(36,97%,54%,0.5)),
-    url("/images/wlogo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-   
-   
-   
 
-    
-
-}*/
 header #headiv1, #headdiv2 {
   
     height: max(50vw,680px);
