@@ -340,7 +340,7 @@ document.getElementById("form2").addEventListener('submit', (e) =>{
         };
        // https://1ed2-105-231-144-76.ngrok.io/api'
         
-        let f= fetch('https://edfa-154-159-237-36.ngrok.io/api',options).catch(err =>{
+        let f= fetch('https://nervous-jungle-cream.glitch.me/api',options).catch(err =>{
           
     
     });
@@ -394,7 +394,7 @@ f.then(res => res.json()).then(d =>{
            
         }
         
-        let f= fetch(' https://edfa-154-159-237-36.ngrok.io/api',options).then(()=>{
+        let f= fetch('https://nervous-jungle-cream.glitch.me/api',options).then(()=>{
             fucall();
 
         }).catch(err =>{
@@ -411,7 +411,7 @@ f.then(res => res.json()).then(d =>{
        if(err){
       
     
-        alert("Not sent.........the server is down!");
+      //  alert("Not sent.........the server is down!");
        
         
         
