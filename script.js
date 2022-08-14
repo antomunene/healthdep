@@ -356,7 +356,7 @@ f.then(res => res.json()).then(d =>{
     console.log(yes());
        if(err){
      // yes();
-      alert("Not sent.........the server is down!");
+    //  alert("Not sent.........the server is down!");
       
        }else{
      fucall();
