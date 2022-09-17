@@ -63,6 +63,7 @@ display: flex;
     float: right;
     margin-right: max(5vw);
     margin-top: 7px;
+ 
 
 }
 #vtsec section img{
@@ -1183,3 +1184,236 @@ footer a{
 #fa1,#fa2,#fa3{
     border-right: 2px solid black;
 }
+
+
+/*referal css*/
+
+#ricon {
+    width: max(23vw,230px);
+    margin-top: 2%;
+    margin-left: 1%;
+   
+}
+
+#rh1{
+   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin: auto;
+    width: max(80%,450px);
+    font-size: max(2.2vw,15px);
+    text-align: center;
+    letter-spacing: 1px;
+    
+}
+
+
+#rp1 span{
+    display: block;
+   font: normal normal normal 22px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+   letter-spacing: 0em;
+   font-size: max(1.2vw,9px);
+    font-size: 1.7vw;
+    font-weight: vw;
+   padding-left: 1%;
+}
+
+#rh21{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: max(1.7vw,14px);
+   width: max(13.8%,113px);
+   border-bottom: max(0.2vw,2px) solid black;
+   margin-left: 3.5%;
+}
+
+#rh22{
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: max(1.7vw,14px);
+   width: max(21.3%,175px);
+   border-bottom: max(0.2vw,2px) solid black;
+   margin-left: 3.5%;
+}
+
+.rp1p{
+    border-bottom: max(0.3vw,3px) solid black;
+    margin: auto;
+    width: 95%;
+    
+}
+#rh12{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin: auto;
+    font-size: max(1.8vw,13px);
+    text-align: center;
+      
+}
+
+#table1{
+    width: 97%;
+    margin: auto;
+    background-color: hsl(196,82%,39%);
+    height: 1;
+    margin-top: 0px;
+    border: 1px solid black;
+}
+#rh13{
+    text-align: center;
+    font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+    font-size: max(1.8vw,13px);
+    color: antiquewhite;
+    width: 100%;
+    margin: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+#rindiv{
+    border-top: 1px solid black;
+    display: flex;
+}
+#rsec1{
+    border-right: 1px solid black;
+    width: 23.5%;
+    background-color: white;
+    font: normal normal normal 22px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    letter-spacing: 0em;
+    font-size: max(1.2vw,9px);
+     padding-left: 1%;
+     height: 1;
+}
+
+#rsec2{
+    width: 29.5%;
+    height: 1;
+    background-color: white;
+    font: normal normal normal 22px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    letter-spacing: 0em;
+    font-size: max(1.2vw,9px);
+     padding-left: 1%;
+     height: 1
+    
+}
+ul{
+    list-style-type:square;
+}
+#rtd{
+    margin-left: 2%;
+}
+#rsec3{
+    border-right: 1px solid black;
+    width: 33.33%;
+    background-color: white;
+    font: normal normal normal 22px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    letter-spacing: 0em;
+    font-size: max(1.2vw,9px);
+     padding-left: 1%;
+     height: 1;
+}
+
+#rsec4{
+    width: 33.33%;
+    background-color: white;
+    font: normal normal normal 22px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    letter-spacing: 0em;
+    font-size: max(1.2vw,9px);
+     padding-left: 1%;
+     height: 1;
+}
+
+#rdiv5{
+    height:1 ;
+    display: flex;
+    border-top: 1px solid black;
+}
+
+#rsecl{
+    border-right: 1px solid black;
+    width: 50%;
+    background-color: white;
+    font: normal normal normal 22px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    letter-spacing: 0em;
+    font-size: max(1.2vw,9px);
+     padding-left: 1%;
+     height: 1; 
+}
+#rsecl1{
+    width: 50%;
+    background-color: white;
+    font: normal normal normal 22px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    letter-spacing: 0em;
+    font-size: max(1.2vw,9px);
+     padding-left: 1%;
+     height: 1; 
+}
+#rimg{
+    height: 12vw;
+    position: absolute;
+    margin-left: 84%;
+    margin-bottom: 50%;
+    -webkit-transform:rotate(18deg);
+  -moz-transform: rotate(18deg);
+  -ms-transform: rotate(18deg);
+  -o-transform: rotate(18deg);
+  transform: rotate(18deg);
+}
+
+#footer{
+    font: normal normal normal 22px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    font-size: max(1.5vw,15px);
+    margin-left: 4%;
+}
+
+@media (max-width:700px) {
+    
+    #rh1{
+     
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+         margin: auto;
+         width: max(95%);
+         font-size: max(3vw);
+         text-align: center;
+         letter-spacing: 1px;
+         padding-bottom: 5px;
+
+         
+    }
+    #rp1{
+        margin-left: 2%;
+        margin: auto;
+        width: 98%;
+    }
+    #rp1 span{
+        display: block;
+       font: normal normal normal 22px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+       letter-spacing: 0em;
+        font-size: max(1.7vw);
+        font-weight: vw;
+       padding-left: 2%;
+    }
+    
+    #rsec3{
+       width: 31%;
+    }
+    #rsec4{
+      width: 35%;
+    }
+
+
+    #rimg{
+        height: 15vw;
+        position: absolute;
+        margin-left: 83%;
+        margin-bottom: 50%;
+        -webkit-transform:rotate(18deg);
+      -moz-transform: rotate(18deg);
+      -ms-transform: rotate(18deg);
+      -o-transform: rotate(18deg);
+      transform: rotate(18deg);
+    }
+
+  
+
+
+     }
+ 
+
+
