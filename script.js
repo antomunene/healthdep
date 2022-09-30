@@ -1,4 +1,4 @@
-let form = document.getElementById("form");
+ let form = document.getElementById("form");
 let p3 = document.getElementById("p3");
 let small = document.getElementById("small");
 let fibutton = document.getElementById("fileb");
@@ -118,6 +118,7 @@ document.getElementById("form").addEventListener('submit', (e) =>{
 });
 
 
+
 let link1 ="https://careers-exeterhospital.hctsportals.com/jobs/search?gloc=1&q=";
 //keyword input should come here
 let link2="&cfm4=";
@@ -126,7 +127,6 @@ let link3 ="&cfm2=";
 //select category should come here in uppercase
 let link4 = "&location_country=&location_state=&location=&radius=&ns_lcache=&location_city=";
 // select location
-
 
 
 
@@ -140,28 +140,45 @@ let  generatelink = () =>{
 
 }
 
-
-
-
-
-
-
-
-
-
-
+let trail=()=>{
+    let name1= "Nursing"
+    console.log(/\s/g.test(name1));
+}
 
 
 let keywordinputf = () => {
-    let keywordinpute = keywordinput.value.replace(/\s/g, "");
+    let keywordinpute = keywordinput.value;
     if (keywordinpute ==="df"){
         let rv="";
         return rv;
+    }else if(/\s/g.test(keywordinput)===true){
+        let tname=keywordinpute.split(" ");
+        if(tname.length===1){
+            return keywordinpute.replace(/\s/g, ""); 
+        }else if(tname.length===2){
+            let tvalue =tname[0]+"+"+tname[1];
+            return tvalue;
+
+        }else if(tname.length===3){
+            let tvalue =tname[0]+"+"+tname[1]+"+"+tname[2];
+            return tvalue;
+
+        }else if(tname.length===4){
+            let tvalue =tname[0]+"+"+tname[1]+"+"+tname[2]+"+"+tname[3];
+            return tvalue;
+
+        }else if(tname.length===5){
+            let tvalue =tname[0]+"+"+tname[1]+"+"+tname[2]+"+"+tname[3]+"+"+tname[4];
+            return tvalue;
+
+        }else{
+            return keywordinpute.replace(/\s/g, "");  
+        }
+
+
     }else{
-
-    return keywordinpute;
-
-    }
+        return keywordinpute.replace(/\s/g, "");
+    }   
 
 }
 
