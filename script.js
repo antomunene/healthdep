@@ -140,12 +140,6 @@ let  generatelink = () =>{
 
 }
 
-let trail=()=>{
-    let name1= "Nursing"
-    console.log(/\s/g.test(name1));
-}
-
-
 let keywordinputf = () => {
     let keywordinpute = keywordinput.value;
     if (keywordinpute ==="df"){
